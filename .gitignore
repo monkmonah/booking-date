@@ -1,4 +1,13 @@
+.settings
+.metadata
+.project
+.classpath
+.springBeans
+.mvn
 /target/
 /bin/
 /data/
-.project
+
+.class
+*.zip
+*.jar
