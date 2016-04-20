@@ -9,5 +9,9 @@
 /data/
 
 .class
-*.zip
+
+# Package Files #
 *.jar
+*.zip
+*.war
+*.ear
